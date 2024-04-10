@@ -1,10 +1,11 @@
 
-// eslint-disable-next-line react/prop-types, no-unused-vars
-const Button = ({text , mr}) => {
+
+// eslint-disable-next-line react/prop-types
+function Button({ text , mt }){
   return (
-    <button className= {` ${mr}  text-xl bg-blue-500 text-slate-100 px-4 py-2 rounded-lg  `}>
-      {text}
-    </button>
+    <button className= { `${mt} bg-white text-black ml-24 py-2 px-8 rounded-lg text-xl font-semibold `}>
+    {text}
+  </button>
   )
 }
 

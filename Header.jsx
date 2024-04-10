@@ -1,21 +1,27 @@
 import Button from "./Button"
 
+
+
+
 const Header = () => {
   return (
-    <nav className="w-full py-2 border-2 flex items-center justify-around bg-slate-100">
-      <div className="flex gap-4 items-center ">
-        <img className="w-10 h-10 " src="/contact-cactus.png" alt="logo" />
-        <h2> Nisha </h2>
+    <nav className="w-full h-[5rem] bg-slate-800 flex items-center justify-around">
+    <div className="flex items-center gap-6 ">
+      <img src="../public/gaming avtar.png" className="h-14 rounded-lg" />
+      <h2 className="text-white font-bold text-2xl "> Nova </h2>
+    </div>
+    <div className="flex">
+      <div className= "hidden sm:flex gap-8 font-semibold items-center text-white">
+        <a href="/">Home</a>
+        <a href="/">About</a>
+        <a href="/">Testimonial</a>
+        <a href="/">Content</a>  
       </div>
-      <div className=" hidden sm:flex gap-8 items-center text-slate-900 font-bold">
-        <a href="/"> Home </a>
-        <a href="/"> About </a>
-        <a href="/"> Testimonials </a>
-        <a href="/"> Contact </a>
-        <Button mr = "ml-20 " text = "Login" /> 
-      </div>
-    
+<Button text={ "login "}  />
+
+    </div>
     </nav>
+    
   )
 }
 
