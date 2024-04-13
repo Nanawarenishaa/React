@@ -1,11 +1,8 @@
+import React from 'react'
 
-
-// eslint-disable-next-line react/prop-types
-function Button({ text , mt }){
+const Button = ({text}) => {
   return (
-    <button className= { `${mt} bg-white text-black ml-24 py-2 px-8 rounded-lg text-xl font-semibold `}>
-    {text}
-  </button>
+ <button className='py2 px-4 border border-slate-900 text-black bg-transparent '>{text}</button>
   )
 }
 
