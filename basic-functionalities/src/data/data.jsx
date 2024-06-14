@@ -93,7 +93,7 @@ export const medicalProducts = [
     "id": 11,
     "name": "Antibacterial Wipes",
     "description": "Antibacterial wipes for cleaning and sanitizing surfaces.",
-    "price": 7.99,
+    "price": 65.99,
     "image": "https://media.istockphoto.com/id/1267049790/photo/vaccination-or-drug-concept-image-with-coronavirus-covid-19.jpg?s=1024x1024&w=is&k=20&c=84E3Hw6HdmK2qrK20XA96nFJlXSzjgSD95fYtU3e9ZY=",
     "category": "Hygiene",
     "inStock": true
@@ -111,7 +111,7 @@ export const medicalProducts = [
     "id": 13,
     "name": "Nebulizer",
     "description": "Nebulizer for effective respiratory treatments.",
-    "price": 59.99,
+    "price": 49.99,
     "image": "https://media.istockphoto.com/id/1303975384/photo/nebulizing-mask.jpg?s=1024x1024&w=is&k=20&c=JXJhxIO60YkxfCaS0oShOeobZ0qh5UZGd0voRS_XlNw=",
     "category": "Therapy",
     "inStock": true
@@ -129,7 +129,7 @@ export const medicalProducts = [
     "id": 15,
     "name": "Sterile Gauze Pads",
     "description": "Sterile gauze pads for wound care and dressing.",
-    "price": 5.99,
+    "price": 30.99,
     "image": "https://images.unsplash.com/photo-1613732437147-f5878329f6b3?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Supplies",
     "inStock": true
